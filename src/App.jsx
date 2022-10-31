@@ -34,7 +34,7 @@ function App() {
       }
   }
 
-  const obj = {boolean: false, deg: true}
+  const obj = {boolean: false, deg: false}
   
   const [state, dispatch] = useReducer(handlerClick, obj)
 
